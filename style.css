@@ -15,3 +15,43 @@ body {
       background-position: 0% 50%;
     }
   }
+
+  #PageCon{
+    margin-top:10rem;
+  }
+  @media (max-width: 576px) { /* Adjust the breakpoint as needed */
+    #PageCon {
+      margin-top: 2rem;
+    }
+  }
+  @media (max-width: 992px) { /* Adjust the breakpoint as needed */
+    #PageCon {
+      margin-top: 2rem;
+    }
+  }
+
+  #MainText{
+    font-size: 4rem;
+  }
+  @media (max-width: 576px) { /* Adjust the breakpoint as needed */
+    #MainText {
+      font-size: 3rem;
+      margin-top: 1rem !important;
+    }
+  }
+  @media (max-width: 992px) { /* Adjust the breakpoint as needed */
+    #MainText {
+      font-size: 4rem;
+      margin-top: 1rem !important;
+    }
+  }
+
+  #HomeImg{
+
+  }
+  @media (max-width: 576px) { /* Adjust the breakpoint as needed */
+    #HomeImg {
+      margin-top: 1rem !important;
+    }
+  }
+  
